@@ -1,0 +1,52 @@
+body {
+    background-color: gray;
+}
+.center {
+    text-align: center;
+}
+.subtittle {
+    margin-top: 0;
+    background-color: rgb(169, 169, 241);
+}
+h1 {
+    color: rgb(9, 9, 146);
+    font-family: Arial, sans-serif;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(149, 149, 237);
+    margin-bottom: 0;
+}
+h2 {
+  font-weight: bold;
+  color: #001f60;          /* azul escuro */
+  background-color: #ccc;  /* fundo cinza */
+  padding: 3px;            /* espaço interno */
+  border-bottom: 3px solid #001f60; /* linha azul escura */
+  display: block;          /* garante que ocupe toda a largura */
+}
+.azul {
+    color: rgb(56, 56, 188);
+    font-weight: bold;
+}
+ul{
+    padding-left: 0;
+    list-style-position: inside;
+}
+.menu{
+    text-align: center;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+.menu a{
+   background-color: #c1bebe;
+   padding: 16px;
+   display: block;
+}
+.menu a:hover{
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
