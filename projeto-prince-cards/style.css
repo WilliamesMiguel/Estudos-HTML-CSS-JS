@@ -15,10 +15,11 @@ body {
 
 .header {
     display: flex;
-    background-color: #05080a;
+    background-color: #1f2428;
     padding: 16px;
     justify-content: space-between;
     align-items: center;
+    border-radius: 9px;
 }
 
 .header__logo {
